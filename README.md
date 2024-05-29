@@ -25,3 +25,17 @@ This code creates a table named "Galaxies" with these columns:
     morphological_type: Morphological type of the galaxy (e.g., spiral, elliptical)
 
 It then populates the table with data for the Andromeda Galaxy and our own Milky Way Galaxy.
+
+### social_media.sql
+
+This code creates a table named "SocialMediaPosts" with these columns:
+
+    id: Unique identifier for each post (auto-increments)
+    platform: Platform where the post was made (e.g., Twitter, Facebook)
+    post_text: Text content of the post
+    like_count: Number of likes received
+    share_count: Number of times the post was shared
+    engagement_rate: Engagement rate (double data type) - You can add a formula to calculate this based on likes, shares, and other factors.
+    post_date: Date and time the post was created (defaults to current timestamp)
+
+
