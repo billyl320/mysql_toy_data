@@ -41,7 +41,6 @@ This code creates a table named "SocialMediaPosts" with these columns:
 
 This code creates a table named "Students" with these columns:
 
-    id: Unique identifier for each student
     student_number: Unique student identification number (mandatory)
     first_name: Student's first name (mandatory)
     last_name: Student's last name (mandatory)
