@@ -37,4 +37,15 @@ This code creates a table named "SocialMediaPosts" with these columns:
     share_count: Number of times the post was shared
     engagement_rate: Engagement rate (double data type)
 
+### student_records.sql
 
+This code creates a table named "Students" with these columns:
+
+    id: Unique identifier for each student
+    student_number: Unique student identification number (mandatory)
+    first_name: Student's first name (mandatory)
+    last_name: Student's last name (mandatory)
+    email: Student's email address (unique and mandatory)
+    major: Student's major (optional)
+    gpa: Student's GPA (optional)
+    graduation_year: Year of graduation (optional)
