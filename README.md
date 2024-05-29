@@ -3,6 +3,8 @@ Collection of MySQL toy datasets to use for learning purposes.
 
 ## Datasets
 
+A description of each of the files that create the data are provided below (in no particular order). 
+
 ### rocks.sql
 
 This code creates a table named "RockSamples" with several columns:
