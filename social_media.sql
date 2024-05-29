@@ -6,8 +6,7 @@ CREATE TABLE SocialMediaPosts (
   post_text TEXT,                            -- Text content of the post
   like_count INT NOT NULL,                    -- Number of likes received
   share_count INT NOT NULL,                   -- Number of times the post was shared
-  engagement_rate DOUBLE NOT NULL,            -- Engagement rate (calculated metric)
-  post_date DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP  -- Date and time the post was created
+  engagement_rate DOUBLE NOT NULL            -- Engagement rate (calculated metric)
 );
 
 -- 2. Insert some sample data (modify values as needed)
