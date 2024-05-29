@@ -35,7 +35,6 @@ This code creates a table named "SocialMediaPosts" with these columns:
     post_text: Text content of the post
     like_count: Number of likes received
     share_count: Number of times the post was shared
-    engagement_rate: Engagement rate (double data type) - You can add a formula to calculate this based on likes, shares, and other factors.
-    post_date: Date and time the post was created (defaults to current timestamp)
+    engagement_rate: Engagement rate (double data type)
 
 
