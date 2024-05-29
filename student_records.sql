@@ -1,14 +1,13 @@
 -- 1. Create the table "Students" with relevant columns
 
 CREATE TABLE Students (
-  id INT PRIMARY KEY,                        -- Unique identifier (auto-increment)
-  student_number VARCHAR(10) NOT NULL,       -- Unique student identification number
+  student_number INT PRIMARY KEY NOT NULL,       -- Unique student identification number
   first_name VARCHAR(50) NOT NULL,           -- Student's first name
   last_name VARCHAR(50) NOT NULL,            -- Student's last name
   email VARCHAR(100) NOT NULL UNIQUE,        -- Student's email address (unique)
   major VARCHAR(50),                         -- Student's major (optional)
   gpa DOUBLE,                                -- Student's GPA (optional)
-  graduation_year INT,                       -- Year of graduation (optional)
+  graduation_year INT                       -- Year of graduation (optional)
 );
 
 -- 2. Insert some sample data (modify values as needed)
@@ -24,7 +23,7 @@ VALUES ('123456', 'Alice', 'Smith', 'alice.smith@school.edu', 'Computer Science'
        ('890123', 'William', 'Miller', 'william.miller@school.edu', NULL, NULL, 2023), 
        ('456789', 'Sophia', 'Davis', 'sophia.davis@school.edu', 'Psychology', NULL, 2027),
        ('012345', 'Jacob', 'Wilson', 'jacob.wilson@school.edu', NULL, 3.21, NULL),    
-       ('678901', 'Olivia', 'Taylor', 'olivia.taylor@school.edu', 'Chemistry', 4.0, 2024)
+       ('678901', 'Olivia', 'Taylor', 'olivia.taylor@school.edu', 'Chemistry', 4.0, 2024),
 	   
 	   ('101112', 'Ava', 'Rodriguez', 'ava.rodriguez@school.edu', 'Nursing', 3.95, 2026),
        ('345679', 'Noah', 'Black', 'noah.black@school.edu', 'Undeclared', NULL, 2025), 
@@ -36,7 +35,7 @@ VALUES ('123456', 'Alice', 'Smith', 'alice.smith@school.edu', 'Computer Science'
        ('112233', 'Madison', 'Miller', 'madison.miller@school.edu', 'Pre-Med', 3.98, NULL), 
        ('456790', 'William', 'Davis', 'william.davis@school.edu', 'Economics', 3.45, 2026),
        ('890124', 'Chloe', 'Thomas', 'chloe.thomas@school.edu', NULL, 3.82, 2025),
-       ('012346', 'Alexander', 'Johnson', 'alexander.johnson@school.edu', 'Philosophy', NULL, NULL)
+       ('012346', 'Alexander', 'Johnson', 'alexander.johnson@school.edu', 'Philosophy', NULL, NULL),
 	   
 	   ('123457', 'Aisha', 'Khan', 'aisha.khan@school.edu', 'Statistics', 3.91, 2026),
        ('789014', 'Daniel', 'Kim', 'daniel.kim@school.edu', 'Electrical Engineering', NULL, 2024),
