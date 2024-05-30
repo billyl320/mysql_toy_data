@@ -51,7 +51,7 @@ This code creates a table named "Students" with these columns:
 
 ### professor_reviews.sql
 
-This code create a table named "ProfessorReviews" with these columns:
+This code creates a table named "ProfessorReviews" with these columns:
 
     student_id: Unique identifier for the student who submitted the review.
     professor_id: Unique identifier for the professor being reviewed.
@@ -60,3 +60,19 @@ This code create a table named "ProfessorReviews" with these columns:
     communication_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's communication skills in the class.
     technical_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's technical knowledge of the class subject matter.
     respectfulness_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's respectful conduct towards students in the class.
+
+### patient_doctor.sql
+
+This code creates 2 tables.  The first is "patients" with these columns:
+
+    patient_id: Unique identifier for the patient (automatically incremented).
+    patient_name: Patient's full name.
+    doctor_saw: Name of the doctor the patient has seen.
+    insurance_provider: Name of the patient's insurance provider (can be null).
+
+The 2nd is "doctors" with these columns:
+
+    doctor_id: Unique identifier for the doctor (automatically incremented).
+    doctor_name: Doctor's full name.
+    specialty: Doctor's medical specialty (e.g., Pediatrics, Orthopedics).
+    accepted_insurances: Comma-separated list of insurance providers accepted by the doctor (can be empty).
