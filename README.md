@@ -53,10 +53,10 @@ This code creates a table named "Students" with these columns:
 
 This code create a table named "ProfessorReviews" with these columns:
 
-    student_id: Unique identifier for the student who submitted the review. This likely functions as a foreign key referencing the student_number in a separate Students table (assuming one exists).
+    student_id: Unique identifier for the student who submitted the review.
     professor_id: Unique identifier for the professor being reviewed.
     class_number: Unique identifier for the class the review pertains to (e.g., "CS101", "ENGL205").
-    department: Department the class belongs to (e.g., "Computer Science", "English", "Biology"). This column allows for duplicate values.
+    department: Department the class belongs to (e.g., "Computer Science", "English", "Biology").
     communication_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's communication skills in the class.
     technical_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's technical knowledge of the class subject matter.
     respectfulness_rating: Rating (on a scale of 0.0 to 10.0 with one decimal place) of the professor's respectful conduct towards students in the class.
