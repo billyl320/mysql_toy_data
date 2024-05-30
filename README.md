@@ -63,14 +63,21 @@ This code creates a table named "ProfessorReviews" with these columns:
 
 ### patient_doctor.sql
 
-This code creates 2 tables.  The first is "patients" with these columns:
+This code creates 3 tables.  The first is "patients" with these columns:
 
     patient_id: Unique identifier for the patient (automatically incremented).
     patient_name: Patient's full name.
     doctor_saw: Name of the doctor the patient has seen.
     insurance_provider: Name of the patient's insurance provider (can be null).
 
-The 2nd is "doctors" with these columns:
+The 2nd is "PatientYearlyCost" with these columns:
+
+    patient_id: Unique identifier for the patient
+    patient_name: Patient's full name.
+    year_val: Associated year corresponding to the total_cost_usd.
+    total_cost_usd: Total cost of the patient's medical bills.
+
+The last is "doctors" with these columns:
 
     doctor_id: Unique identifier for the doctor (automatically incremented).
     doctor_name: Doctor's full name.
