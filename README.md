@@ -83,3 +83,13 @@ The last is "doctors" with these columns:
     doctor_name: Doctor's full name.
     specialty: Doctor's medical specialty (e.g., Pediatrics, Orthopedics).
     accepted_insurances: Comma-separated list of insurance providers accepted by the doctor (can be empty).
+
+### toy_sales.sql
+
+This code creates a table named "ToySales" with the following columns:
+    
+    date: Date of the sale (e.g., "2023-10-26")
+    toy_type: Category of the toy sold (e.g., "Action Figures")
+    units_sold: Number of individual toys sold on that date for that type
+    total_revenue: Total USD revenue generated from the sale of that toy type on that date
+
