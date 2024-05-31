@@ -1,11 +1,11 @@
 CREATE TABLE ToySales (
-  date DATE NOT NULL,
+  date_order DATE NOT NULL,
   toy_type VARCHAR(50) NOT NULL,
   units_sold INT NOT NULL,
   total_revenue DOUBLE NOT NULL
 );
 
-INSERT INTO ToySales (date, toy_type, units_sold, total_revenue)
+INSERT INTO ToySales (date_order, toy_type, units_sold, total_revenue)
 VALUES
   ('2023-10-26', 'Action Figures', 25, 125.00),
   ('2023-10-26', 'Dolls', 18, 90.00),
